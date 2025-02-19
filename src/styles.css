@@ -1,0 +1,61 @@
+body {
+  background-color: rgba(23, 24, 27, 255);
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.tableControl {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.tableheader {
+  background-color: rgba(17, 17, 17, 255);
+  color: white;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.tableHeaderCel:not(:last-child) {
+  border-right: 1px solid rgba(58, 58, 58, 255);
+}
+
+.row {
+  background-color: rgba(29, 30, 29, 255);
+  cursor: pointer;
+}
+
+.row:not(:last-child) {
+  border-bottom: 1px solid rgba(58, 58, 58, 255);
+}
+
+.row:hover {
+  background-color: rgba(58, 58, 58, 255);
+}
+
+.cel {
+  padding: 0 10px;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination button:disabled {
+  color: rgba(58, 58, 58, 255);
+}
